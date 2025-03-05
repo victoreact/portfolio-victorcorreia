@@ -4,10 +4,12 @@ import arrowup from '../../assets/ArrowUpRight.svg'
 interface PropsContact {
     imageSrc: string;
     text: string;
+    link?: string;
 }
-const ContactButtom = ({imageSrc, text}: PropsContact) => {
+const ContactButtom = ({imageSrc, text, link}: PropsContact) => {
     return(
         <>
+        <a href={link} target="blank">
         <ContainerButtom>
             <LeftContent>
                 <img src={imageSrc} alt="Botão de rede social" />
@@ -15,6 +17,7 @@ const ContactButtom = ({imageSrc, text}: PropsContact) => {
             </LeftContent>
             <ArrowLink src={arrowup}/>
         </ContainerButtom>
+        </a>
         </>
     )
 }

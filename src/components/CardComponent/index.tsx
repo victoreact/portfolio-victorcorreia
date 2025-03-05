@@ -4,11 +4,13 @@ interface Props {
     imageSrc: string;
     title: string;
     text: string;
+    link?: string;
   }
 
-const CardComponent = ({ imageSrc, title, text}: Props) => {
+const CardComponent = ({ imageSrc, title, text, link}: Props) => {
     return(
         <>
+        <a href={link} target="blank">
         <CardContainer>
             <PlaceHolder src={imageSrc}/>
             <TitleAndSubtitleCard>
@@ -16,6 +18,7 @@ const CardComponent = ({ imageSrc, title, text}: Props) => {
                 <p>{text}</p>
             </TitleAndSubtitleCard>
         </CardContainer>
+        </a>
         </>
     )
 }

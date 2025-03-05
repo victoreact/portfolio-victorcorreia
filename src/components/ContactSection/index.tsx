@@ -14,9 +14,9 @@ const ContactSection = () => {
                 <h1>Gostou do meu trabalho?</h1>
                 <p>Entre em contato ou acompanhe minhas redes sociais!</p>
             </TextContact>
-            <ContactButtom imageSrc={linkedln} text="linkedln"/>
+            <ContactButtom imageSrc={linkedln} text="linkedln" link="https://www.linkedin.com/in/victor-correia-luiz/"/>
             <ContactButtom imageSrc={instagram} text="instagram" />
-            <ContactButtom imageSrc={github} text="github" />
+            <ContactButtom imageSrc={github} text="github" link="https://github.com/victoreact" />
         </ContainerContact>
         </>
     )

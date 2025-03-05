@@ -31,9 +31,9 @@ const SkillsSection = () => {
 
             </ContainerHardButtons>
             <ContainerCards>
-            <CardComponent title="Visão de projeto" text="Um dos maiores desafios é encantar o cliente com sua solução, indo além do conhecimento técnico para a compreensão humana" imageSrc={victorapresent}/>
-            <CardComponent title="Comunicação" text="Sou uma pessoa que não deixa a oportunidade passar, gosto de falar e ter meu espaço de opinião." imageSrc={victorpalestrante}/>
-            <CardComponent title="Trabalho em equipe" text="Gosto muito de campeonatos de tecnologia, sou atualmente bicampeão de hackatons e buscando mais." imageSrc={victorpremio}/>
+            <CardComponent title="Visão de projeto" text="Um dos maiores desafios é encantar o cliente com sua solução, indo além do conhecimento técnico para a compreensão humana" imageSrc={victorapresent} link="https://www.linkedin.com/posts/victor-correia-luiz_e-a%C3%AD-doutor-o-que-voc%C3%AA-acha-mais-uma-activity-7294482379778228226-SWu9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1aajEBM1_zQeryQhsAO00PCLrd8e1rDZo" />
+            <CardComponent title="Comunicação" text="Sou uma pessoa que não deixa a oportunidade passar, gosto de falar e ter meu espaço de opinião." imageSrc={victorpalestrante} link="https://www.linkedin.com/posts/victor-correia-luiz_campusparty-inovaaexaeto-empreendedorismo-activity-7238253709900566529-cXRe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1aajEBM1_zQeryQhsAO00PCLrd8e1rDZo"/>
+            <CardComponent title="Trabalho em equipe" text="Gosto muito de campeonatos de tecnologia, sou atualmente bicampeão de hackatons e buscando mais." imageSrc={victorpremio} link="https://www.linkedin.com/posts/victor-correia-luiz_ideathon-inova-real-vencedores-activity-7266469495769088000-sV4X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE1aajEBM1_zQeryQhsAO00PCLrd8e1rDZo"/>
             </ContainerCards>
        </ContainerSkills>
         </>
